@@ -90,8 +90,12 @@
         font-size:90px; 
         font-family:'-webkit-pictograph'; 
         font-weight:700;
-        border-width: 10px;
-        border-color: #7c4e0d;
+        border-left: 20px solid transparent;
+        border-right: 20px solid transparent;
+        border-bottom: 20px solid #7c4e0d;
+        border-top: 20px solid #7c4e0d;
+        /* border-width: 10px; */
+        /* border-color: #7c4e0d; */
         border-style: ridge;
         background: -webkit-linear-gradient(#e9c577, #a8895c,  #eec18b); 
         -webkit-background-clip: #302d263b;
@@ -227,9 +231,17 @@
   background-size:cover;
   -o-background-size:cover;
   background-position:center;background-attachment: fixed; 
-  background-image:url(../img/portfolio/fullsize/ChangePic.gif);
+  background-clip: url(../img/portfolio/fullsize/ChangePic.mov);
+  /* background-image:url(../img/portfolio/fullsize/ChangePic.mov); */
   color:#fff;
   z-index: 2;
+}
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
 }
 .sail2 {
   /* animation:fade2 8s infinite; */
@@ -263,4 +275,20 @@
   color:#fff;
   z-index: 2;
   
+}
+.arrow-down {
+  width: 0; 
+  height: 0; 
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  
+  border-top: 20px solid #f00;
+}
+i, .down {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
 }
