@@ -231,17 +231,9 @@
   background-size:cover;
   -o-background-size:cover;
   background-position:center;background-attachment: fixed; 
-  background-clip: url(../img/portfolio/fullsize/ChangePic.mov);
-  /* background-image:url(../img/portfolio/fullsize/ChangePic.mov); */
+  background-image:url(../img/portfolio/fullsize/ChangePic.gif);
   color:#fff;
   z-index: 2;
-}
-#myVideo {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%; 
-  min-height: 100%;
 }
 .sail2 {
   /* animation:fade2 8s infinite; */
