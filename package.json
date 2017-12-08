@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/VincentCastig/Vinrtuv/issues"
   },
-  "homepage": "https://github.com/VincentCastig/Vinrtuv#readme"
+  "homepage": "https://github.com/VincentCastig/Vinrtuv#readme",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "express": "^4.16.2"
+  }
 }
