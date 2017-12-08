@@ -1,8 +1,10 @@
 const dotenv = require('dotenv').config();
 const express = require('express');
+const path = require('path');
 const port = 3000
 
-app.use(express.static(path.join(__dirname, 'public')));
+const app = module.exports = express();
+app.use(express.static(path.join(__dirname, 'VINTRUV')));
 const connectionString = process.env.DATABASE_URL; //Connects to heroku bro
 
 
