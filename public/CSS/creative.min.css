@@ -231,9 +231,17 @@
   background-size:cover;
   -o-background-size:cover;
   background-position:center;background-attachment: fixed; 
-  background-image:url(../img/portfolio/fullsize/ChangePic.gif);
+  /* background-clip: url(../img/portfolio/fullsize/ChangePic.mov); */
+  /* background-image:url(../img/portfolio/fullsize/ChangePic.mov); */
   color:#fff;
   z-index: 2;
+}
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  height: 100%;
 }
 .sail2 {
   /* animation:fade2 8s infinite; */
@@ -246,8 +254,9 @@
   -moz-background-size:cover;
   background-size:cover;
   -o-background-size:cover;
-  background-position:center;background-attachment: fixed; 
-  background-image:url(../img/portfolio/fullsize/IpadGif.gif);
+  background-position:center;
+  background-attachment: fixed; 
+  /* background-image:url(../img/portfolio/fullsize/IpadGif.gif); */
   color:#fff;
   z-index: 2;
 }
@@ -275,12 +284,4 @@
   border-right: 20px solid transparent;
   
   border-top: 20px solid #f00;
-}
-i, .down {
-  border: solid black;
-  border-width: 0 3px 3px 0;
-  display: inline-block;
-  padding: 3px;
-  transform: rotate(45deg);
-  -webkit-transform: rotate(45deg);
 }
