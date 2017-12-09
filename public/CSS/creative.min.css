@@ -86,10 +86,23 @@
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
       }
-      .header-content .header-content-begin a{
+       .header-content-inner{
         font-size:90px; 
-        font-family:'-webkit-pictograph'; 
+        font-family:'futura-pt'; 
         font-weight:700;
+        /* border-width: 10px;
+        border-color: #7c4e0d; */
+        /* border-style: ridge; */
+        text-transform:uppercase; 
+        background: -webkit-linear-gradient(#e9c577, #a8895c,  #eec18b); 
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+      .header-content .header-content-begin a{
+        /* font-size:90px; 
+        font-family:'-webkit-pictograph'; 
+        font-weight:700; */
+        position: relative;
         border-width: 10px;
         border-color: #7c4e0d;
         border-style: ridge;
@@ -264,4 +277,12 @@
   z-index: 2;
   
 }
+.iconBox {
+  margin-bottom: 40px;
+}
+#bgvid {
 
+  width: 220px;
+  height: 300px;
+ 
+}
